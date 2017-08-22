@@ -1,0 +1,26 @@
+{
+    "name": "sunnydevbox/inventory",
+    "description": "Inventory",
+    "require": {
+        "stevebauman/inventory": "^1.7",
+        "sunnydevbox/tw-admin": "dev",
+        "sunnydevbox/tw-user": "dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sunnydevbox\\TWInventory\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sunnydevbox\\TWInventory\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "PJ Go",
+            "email": "pjgo@tweeklabs.com"
+        }
+    ]
+}
